@@ -1,0 +1,41 @@
+dependencies:
+  button:
+    public: true
+    version: '>=2.5,<4.0'
+  esp_codec_dev:
+    public: true
+    version: ^1,<1.2
+  esp_io_expander_tca9554:
+    public: true
+    version: ^1
+  esp_lcd_gc9503:
+    matches:
+    - if: idf_version <5.1.2
+      version: ^1
+    - if: idf_version >=5.1.2
+      version: ^3
+    public: true
+  esp_lcd_panel_io_additions:
+    public: true
+    version: ^1
+  esp_lcd_touch_ft5x06:
+    public: true
+    version: ^1
+  esp_lcd_touch_gt1151:
+    public: true
+    version: ^1
+  espressif/esp_lvgl_port:
+    public: true
+    version: ^2
+  idf: '>=5.0.1'
+description: Board Support Package (BSP) for ESP32-S3-LCD-EV-Board
+repository: git://github.com/espressif/esp-bsp.git
+repository_info:
+  commit_sha: 17beb6e4b5882318737357b6bd567b099c37e6a3
+  path: bsp/esp32_s3_lcd_ev_board
+tags:
+- bsp
+targets:
+- esp32s3
+url: https://github.com/espressif/esp-bsp/tree/master/bsp/esp32_s3_lcd_ev_board
+version: 2.2.1~1

@@ -1,0 +1,86 @@
+dependencies:
+  espressif/button:
+    component_hash: c3ee3ba339a3848977496d0157008ae574a24fc59f54d27c93ab51b14446a2fb
+    source:
+      type: service
+    version: 3.3.1
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      type: service
+    version: 0.5.3
+  espressif/esp32_s3_lcd_ev_board:
+    component_hash: b10a1c701285f91c358fa4faba98e788c11fed8e967a577e3697b7b4f01e52a6
+    source:
+      type: service
+    version: 2.2.1~1
+  espressif/esp_codec_dev:
+    component_hash: 1a3a2e518cd8b52e8796ec393a4050977f8f113599056faf085a02a57e194f86
+    source:
+      type: service
+    version: 1.1.0
+  espressif/esp_io_expander:
+    component_hash: fbc0de4082fc7c207dc98a93a0ed83d1a929a4ecee83cc567afb406f3ee6d4a6
+    source:
+      type: service
+    version: 1.0.1
+  espressif/esp_io_expander_tca9554:
+    component_hash: e9e49ddb1038c2b54b13c51b5e3e6dbdd10a878959c8ab0e0a7c8206316add61
+    source:
+      type: service
+    version: 1.0.1
+  espressif/esp_lcd_gc9503:
+    component_hash: 6940bf99cd08e7e8eb7ad5efbe88ebf9cc8eeb975fcf1c815d120956d06be940
+    source:
+      type: service
+    version: 3.0.1
+  espressif/esp_lcd_panel_io_additions:
+    component_hash: 213d5c4a3c322a48c9f993d6bc2372206d34af95db34e87a3e02601bdcad7ce8
+    source:
+      type: service
+    version: 1.0.1
+  espressif/esp_lcd_touch:
+    component_hash: 779b4ba2464a3ae85681e4b860caa5fdc35801458c23f3039ee761bae7f442a4
+    source:
+      type: service
+    version: 1.1.2
+  espressif/esp_lcd_touch_ft5x06:
+    component_hash: 97759953d9436a365e9427078c5b04ecce4e6a50f50cf62c68cd6bfa229b812c
+    source:
+      type: service
+    version: 1.0.6
+  espressif/esp_lcd_touch_gt1151:
+    component_hash: b854694702b8687dc0a456017d4a292f8ddfa3cb8ad2faa282fabbb989e6fd26
+    source:
+      type: service
+    version: 1.0.5~1
+  espressif/esp_lvgl_port:
+    component_hash: d245536a7e33d32a58f6562be9dbccac7332c5636b2c0a0f81ce44ff8519257c
+    source:
+      type: service
+    version: 2.3.1
+  espressif/esp_tinyusb:
+    component_hash: f151d680d6847bfcfd5d8eb6d1c3ff926c208e6b963b2e83643a141bc70baa15
+    source:
+      storage_url: file:///D:/Espressif/registry
+      type: service
+    version: 1.4.4
+  espressif/tinyusb:
+    component_hash: 256fd8aee92ae9f1014538b8601508907a2da386b64f6d42f35a67f9288d1b20
+    source:
+      storage_url: file:///D:/Espressif/registry
+      type: service
+    version: 0.15.0~9
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.1.4
+  lvgl/lvgl:
+    component_hash: 2409fdc84e9766d2a18afd84b051aef3f838348136cdb1c10ac2e8bcdb012bf6
+    source:
+      type: service
+    version: 9.2.0
+manifest_hash: 34da186800991e66488ced77783a8eeb201022b223997be5d5e63a8756875174
+target: esp32s3
+version: 1.0.0

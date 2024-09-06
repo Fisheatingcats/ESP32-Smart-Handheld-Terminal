@@ -1,0 +1,32 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.flashType": "UART",
+  "idf.portWin": "COM12",
+  "files.associations": {
+    "esp_vfs_fat.h": "c",
+    "string.h": "c",
+    "sdcard.h": "c",
+    "sdmmc_cmd.h": "c",
+    "gpio.h": "c",
+    "compare": "c",
+    "unity.h": "c",
+    "sensor.h": "c",
+    "i2c.h": "c",
+    "mpu6050.h": "c",
+    "esp_system.h": "c",
+    "esp_log.h": "c",
+    "stdio.h": "c",
+    "task.h": "c",
+    "system_error": "c",
+    "freertos.h": "c",
+    "sensor_mpu6050.h": "c",
+    "time.h": "c",
+    "myi2c.h": "c",
+    "esp_lcd_panel_io.h": "c",
+    "lvgl.h": "c"
+  }
+}
